@@ -1,10 +1,13 @@
-.App {
-  text-align: center;
+body {
+  background-color: 	#DCDCDC !important;
+}
+.img {
+  transition: .5s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img:hover {
+  transform: rotate(90deg);
+  /* transform: scale(2); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
